@@ -23,10 +23,12 @@
     <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico" />
     <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml" />
     <meta name="theme-color" content="#563d7c" />
+	
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/custom.css" />
     <link href="css/carousel.css" rel="stylesheet" />
+
     <!-- fontawesome -->
     <link
       rel="stylesheet"
@@ -276,7 +278,9 @@
        <!--product carousel-->
         <div class="container " id="product" >
           <h1 style="padding-top: 90px; text-align: center;">Our Products</h1>
-
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	    <link href="css/ratings.css" rel="stylesheet" />
           <div class="row mb-10 py-10">
             <div class="col-md-3">
               <div class="product-top" >
@@ -296,11 +300,7 @@
                 </div>
               </div>
               <div class="product-bottom text-center">
-              <i class="fa fa-star" ></i>
-              <i class="fa fa-star" ></i>
-              <i class="fa fa-star" ></i>
-              <i class="fa fa-star-half-alt"></i>
-              <i class="far fa-star"></i>
+			      <input id="input-1" name="input-1" class="rating rating-xs rating-loading " data-min="0" data-max="5" data-step="0.1" value="2">
               <h3>Why Protien</h3>
               <h5>$498.00</h5>
               </div>
@@ -324,11 +324,7 @@
                 </div>
               </div>
               <div class="product-bottom text-center">
-              <i class="fa fa-star" ></i>
-              <i class="fa fa-star" ></i>
-              <i class="fa fa-star" ></i>
-              <i class="fas fa-star-half-alt"></i>
-              <i class="far fa-star"></i>
+               <input id="input-2" name="input-2" class="rating rating-xs rating-loading " data-min="0" data-max="5" data-step="0.1" value="2">
               <h3>Why Protien</h3>
               <h5>$498.00</h5>
               </div>
@@ -576,5 +572,6 @@
     ></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/mycustom.js"></script>
+    <script src="js/ratings.js"></script>
   </body>
 </html>
