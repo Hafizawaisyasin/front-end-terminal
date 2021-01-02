@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+    <meta name="generator" content="Jekyll v4.1.1" />
+    <link rel="icon" href="./images/logo.png">
+    <title>fitness Body</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180" />
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json" />
+    <link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c" />
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico" />
+    <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#563d7c" />
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/custom.css" />
+    <link href="css/carousel.css" rel="stylesheet" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+	
+	<style>
+ 
+	html{
+	background-color: black;}
+	</style>
+  </head>
+  <body class="p-0" >
+    <header class="black">
+      <nav class=" navbar navbar-expand-lg  navbar-fixed-top navbar-default ">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logowhite.png" alt="logo" style="width: 25%; padding-left: 1rem" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" style="background-color:gray;"><i style="color: #000;"class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active">
+              <a class="nav-link text-black btn-outline-primary px-3 active" href="#home"><i class="fas fa-home"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black btn-outline-primary px-2" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black btn-outline-primary px-2" href="#product">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black btn-outline-primary px-2" href="#contacus">Contact US</a>
+            </li>
+          </ul>
+		 
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="#" id="login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="signup">Sign Up</a>
+            </li>
+          </ul>
+
+          <form class="form-inline mt-2 mt-md-0 d-md-none d-lg-none d-xs-block d-sm-block">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+
+    <main role="main ">
+      <section id="home">
+      <div id="myCarousel " class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item carousel-item active">
+            <img src="images/slide1.jpg" alt="buffalo-skyline" style="height: 100%; width: 100%" />
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+                  Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide2.jpg" alt="buffalo-skyline" style="height: 100%; width: 100%" />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+                  Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item view jarallax">
+            <img src="images/slide3.jpg" alt="buffalo-skyline" style="height: 100%; width: 100%" />
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>One more for good measure.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+                  Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide4.jpg" alt="buffalo-skyline" style="height: 100%; width: 100%" />
+
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>One more for good measure.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+                  Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--my search bar-->
+
+      <div class="search-bar d-md-block d-sm-none d-xs-none text-center" style="top: 150px; position: absolute; width: 100%">
+        <div class="container w-50">
+          <div class="row">
+            <div class="col-lg-10">
+              <form>
+                <div class="p-1 bg-light shadow-sm">
+                  <div class="input-group">
+                    <input
+                      type="search"
+                      placeholder="Search For Supliments,images &amp; packages"
+                      class="form-control border-0 bg-light"
+                    />
+                    <div class="input-group-append">
+                      <!--button-->
+                      <!-- Example single danger button -->
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-outline-secondary dropdown-toggle smallscreen"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          All Videos
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#"><i class="fas fa-video mr-2"></i>Videos</a>
+                          <a class="dropdown-item" href="#"><i class="fas fa-dumbbell mr-2"></i>Suppliments</a>
+                          <a class="dropdown-item" href="#"><i class="fas fa-box-open mr-2"></i>Team</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#"><i class="fas fa-info-circle"></i>Workout Plans</a>
+                        </div>
+                      </div>
+                      <!--end button-->
+                      <!--search bitton-->
+                      <div class="input-group-append">
+                        <button type="submit" class="btn btn-link"><i class="fas fa-search"></i></button>
+                      </div>
+                      <!--end search button-->
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact form-->
+    <button class="open-button" onclick="openForm()">Contact US</button>
+
+		<div class="form-popup" id="myForm">
+			<form action="/action_page.php" class="form-container">
+				<h1 style="color: aliceblue">Contact US</h1>
+
+				<label for="email" style="color: aliceblue"><b>Type Your Query</b></label>
+				<input type="text" placeholder="Enter Query" name="email" required />
+
+   
+                    <a class="nav-link contactBtn btn" href="tel:923466392886"><i style="color: #ceebcf; "class="fas fa-phone-volume phone"></i>  </a>
+
+    
+                    <a class="nav-link contactBtn1 btn" href="mailto:awais154@gmail.com"><i style="color: #ceebcf;" class="far fa-envelope email"></i></a>
+           
+
+				<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+			</form>
+		</div>
+      <!--end search bar-->
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  
+        <!-- /.row -->
+        
+<!-- about -->
+
+<div class="parallax" >
+  
+  <div class="animation-1" style="margin-top: 3%;">
+    <p>Here are Our Products..!</p>
+  </div>
+
+
+
+</div>
+
+        <!-- START THE FEATURETTES -->
+
+        <!--suppliments-->
+      </section>
+      <!-- //w3l-banner-slider-main -->
+      <section  id="product"  class="w3l-grids-hny-2">
+        <!-- /content-6-section -->
+       <!--product carousel-->
+        <div class="container " id="product" >
+          <h1 style="padding-top: 90px; text-align: center;">Our Products</h1>
+
+          <div class="row mb-10 py-10">
+            <div class="col-md-3">
+              <div class="product-top" >
+                <img
+                  src="images/1.jpg"
+                  class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                  alt=""
+                />
+                <div class="overlay ">
+                  <button type="button" class="btn btn-secondary " title="Quick Shop">
+                    <i class="fas fa-eye"></i>
+                    <button type="button" class="btn btn-secondary " title="Add to wish list">
+                      <i class="far fa-heart"></i>
+                      <button type="button" class="btn btn-secondary" title="Add to cart">
+                        <i class="fas fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product-bottom text-center">
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+              <h3>Why Protien</h3>
+              <h5>$498.00</h5>
+              </div>
+            </div>
+            
+            <div class="col-md-3">
+              <div class="product-top">
+                <img
+                  src="images/2.jpg"
+                  class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                  alt=""
+                />
+                <div class="overlay ">
+                  <button type="button" class="btn btn-secondary " title="Quick Shop">
+                    <i class="fas fa-eye"></i>
+                    <button type="button" class="btn btn-secondary " title="Add to wish list">
+                      <i class="far fa-heart"></i>
+                      <button type="button" class="btn btn-secondary" title="Add to cart">
+                        <i class="fas fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product-bottom text-center">
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+              <h3>Why Protien</h3>
+              <h5>$498.00</h5>
+              </div>
+            </div>
+            
+            <div class="col-md-3">
+              <div class="product-top">
+                <img
+                  src="images/1.jpg"
+                  class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                  alt=""
+                />
+                <div class="overlay ">
+                  <button type="button" class="btn btn-secondary " title="Quick Shop">
+                    <i class="fas fa-eye"></i>
+                    <button type="button" class="btn btn-secondary " title="Add to wish list">
+                      <i class="far fa-heart"></i>
+                      <button type="button" class="btn btn-secondary" title="Add to cart">
+                        <i class="fas fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product-bottom text-center">
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+              <h3>Why Protien</h3>
+              <h5>$498.00</h5>
+              </div>
+            </div>
+            
+            <div class="col-md-3">
+              <div class="product-top">
+                <img
+                  src="images/2.jpg"
+                  class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                  alt=""
+                />
+                <div class="overlay ">
+                  <button type="button" class="btn btn-secondary" title="Quick Shop">
+                    <i class="fas fa-eye"></i>
+                    <button type="button" class="btn btn-secondary " title="Add to wish list">
+                      <i class="far fa-heart"></i>
+                      <button type="button" class="btn btn-secondary" title="Add to cart">
+                        <i class="fas fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="product-bottom text-center">
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fa fa-star" ></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+              <h3>Why Protien</h3>
+              <h5>$498.00</h5>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="container " id="product" >
+
+            <div class="row mb-10 py-10">
+              <div class="col-md-3">
+                <div class="product-top" >
+                  <img
+                    src="images/1.jpg"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt=""
+                  />
+                  <div class="overlay ">
+                    <button type="button" class="btn btn-secondary " title="Quick Shop">
+                      <i class="fas fa-eye"></i>
+                      <button type="button" class="btn btn-secondary " title="Add to wish list">
+                        <i class="far fa-heart"></i>
+                        <button type="button" class="btn btn-secondary" title="Add to cart">
+                          <i class="fas fa-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>Why Protien</h3>
+                <h5>$498.00</h5>
+                </div>
+              </div>
+              
+              <div class="col-md-3">
+                <div class="product-top">
+                  <img
+                    src="images/2.jpg"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt=""
+                  />
+                  <div class="overlay ">
+                    <button type="button" class="btn btn-secondary " title="Quick Shop">
+                      <i class="fas fa-eye"></i>
+                      <button type="button" class="btn btn-secondary " title="Add to wish list">
+                        <i class="far fa-heart"></i>
+                        <button type="button" class="btn btn-secondary" title="Add to cart">
+                          <i class="fas fa-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>Why Protien</h3>
+                <h5>$498.00</h5>
+                </div>
+              </div>
+              
+              <div class="col-md-3">
+                <div class="product-top">
+                  <img
+                    src="images/1.jpg"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt=""
+                  />
+                  <div class="overlay ">
+                    <button type="button" class="btn btn-secondary " title="Quick Shop">
+                      <i class="fas fa-eye"></i>
+                      <button type="button" class="btn btn-secondary " title="Add to wish list">
+                        <i class="far fa-heart"></i>
+                        <button type="button" class="btn btn-secondary" title="Add to cart">
+                          <i class="fas fa-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>Why Protien</h3>
+                <h5>$498.00</h5>
+                </div>
+              </div>
+              
+              <div class="col-md-3">
+                <div class="product-top">
+                  <img
+                    src="images/2.jpg"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt=""
+                  />
+                  <div class="overlay ">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop">
+                      <i class="fas fa-eye"></i>
+                      <button type="button" class="btn btn-secondary " title="Add to wish list">
+                        <i class="far fa-heart"></i>
+                        <button type="button" class="btn btn-secondary" title="Add to cart">
+                          <i class="fas fa-cart-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-bottom text-center">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>Why Protien</h3>
+                <h5>$498.00</h5>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+        </div>
+
+     
+      <footer id="footer">
+        <div class="footer-top2">
+          <div class="container" id="contacus">
+            <div  class="row">
+               <div class="col-md-3 col-sm-6 col-sm-12 segment-one md-mb-30 sm-mb-30 ">
+                 <h5>Fitness Body Gym</h5>
+                 <p> It’s a really good place for 
+                   conditioning! Low ceilings limit the use of aerial setup but you can </p>
+                  
+                    <a class="nav-link" href="#"><i class="fas fa-phone-volume phone"></i> +92346-6392886 </a>
+               
+                 
+                    <a class="nav-link" href="#"><i class="far fa-envelope email"></i> awais154@gmail.com</a>
+                 
+               </div>
+               <div class="col-md-3 col-sm-6 col-sm-12 segment-two md-mb-30 sm-mb-30">
+                <h6>Fitness Body Gym</h6>
+                <ul style="color: black; font-weight: 100px; font-family: sans-serif;"> 
+                  <li> <a href="#home"> Home</li></a>
+                  <li><a href="#aboutus">About Us</li></a>
+                  <li><a href="#products">Products</li></a>
+                  <li><a href="#article">Articles</li></a>
+                  <li><a href="#service"> Services</li></a>
+                  <li><a href="#team">Our Team</li></a>
+                </ul>
+               </div>
+                 
+               <div class="col-md-3 col-sm-6 col-sm-12 segment-three md-mb-30 sm-mb-30">
+                <h6>Follow US</h6>
+                 <p>Please follow us on social media to keep updates from our gym</p>
+                 <a href="#"><i class="fab fa-facebook"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-pinterest"></i></a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-sm-12 segment-four md-mb-30 sm-mb-30">
+                <h5>Our New Coach</h5>
+                <p> It’s a really good place for 
+                  conditioning! Low ceilings limit the use of aerial setup but you can easily train</p>
+                  <form action="">
+                    <input type="email" name="" id="">
+                    <input type="submit" value="Subscribe">
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="footer-bottom-text">All right reserved by &copy;Hafiz Awais Yasin </p>
+      </footer>
+   
+    </section>
+     
+    </main>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>');
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mycustom.js"></script>
+  </body>
+</html>
